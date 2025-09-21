@@ -3,6 +3,14 @@ link: "/ai-gateway/changelog/"
 productName: AI Gateway
 productLink: "/ai-gateway/"
 entries:
+  - publish_date: "2025-09-22"
+    title: Fal AI provider
+    description: |-
+      Added [Fal AI](/ai-gateway/usage/providers/fal/) as a new provider with support for 600+ generative media models. Fal AI integration includes:
+        - Standard REST API support for image, video, voice, and audio generation models
+        - WebSocket support for real-time model interactions
+        - Custom target URL routing with the `x-fal-target-url` header
+        - SDK integration through proxy URL configuration
   - publish_date: "2025-08-25"
     title: Dynamic routing
     description: |-
